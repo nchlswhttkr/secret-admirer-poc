@@ -8,7 +8,7 @@ I was tinkering with building a tool to notify me when a sufficiently "human" re
 
 So I'm leaving this WIP here (not quite working, some weird behaviour on cached requests). I might come back to it later.
 
-You'll need to have [ngrok] and [cargo] installed. It only works on macOS because it uses AppleScript snippets to show notifications.
+You'll need to have [ngrok](https://ngrok.com) and [the Rust toolchain](https://www.rust-lang.org/) installed. It only works on macOS because it uses AppleScript snippets to show notifications.
 
 ```sh
 git clone https://github.com/nchlswhttkr/secret-admirer-poc.git
