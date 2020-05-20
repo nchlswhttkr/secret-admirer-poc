@@ -21,3 +21,5 @@ $SHELL start.sh
 
 $SHELL stop.sh
 ```
+
+On startup, the various programs are set up in the background and a worker is deployed to `CF_WORKER_ROUTE`. The worker is deleted when stopping.
