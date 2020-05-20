@@ -1,0 +1,15 @@
+#!/bin/bash
+
+export CF_WORKER_NAME=secret-admirer-poc
+
+# Your token will need a few permissions
+#    - Workers Scripts:Edit
+#    - Workers Routes:Edit
+# https://dash.cloudflare.com/profile/api-tokens
+export CF_API_TOKEN=
+
+# You can find these at the bottom of the Overview tab in your dashboard
+# https://dash.cloudflare.com/?to=/:account/:zone
+export CF_ACCOUNT_ID=
+export CF_ZONE_ID=
+export CF_WORKER_ROUTE="https://nicholas.cloud/*" # must match your zone
